@@ -17,8 +17,6 @@ body {
     max-width: 300px;
     width: 60%;
     filter: drop-shadow(0 4px 10px rgba(0,0,0,0.2));
-    border: 3px #62694a;
-    border-style: dashed;
 }
 
 /* Content Box */
@@ -53,18 +51,23 @@ ul li {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 18px;
-    background: #a99f92;
+    background: #af5117;
     color: white;
     text-decoration: none;
     border-radius: 8px;
     transition: 0.3s;
-    border-color: coral;
+    margin-bottom: 10px;
 }
 
 .contact-link:hover {
-    background: #4a4e69;
+    background: #19e765;
+    color: black;
+    font-size: 1.1rem;
 }
-
+intro {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
 /* Footer */
 footer {
     text-align: center;
